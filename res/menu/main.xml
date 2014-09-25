@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mg="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="100"
+        mg:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Ara"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:orderInCategory="100"
+        mg:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Paylaş"/>
+
+</menu>
